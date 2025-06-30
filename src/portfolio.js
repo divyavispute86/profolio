@@ -23,7 +23,7 @@ const greeting = {
   username: "Divya Vispute",
   title: "Hi all, I'm Divya",
   subTitle: emoji(
-    "A passionate Frontend Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks."
+    "I'm a frontend developer with 5+ years of experience in HTML, CSS, JavaScript, and React. I enjoy creating user-friendly, responsive interfaces and bringing designs to life."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -42,13 +42,13 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FROTEND DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "What I Do",
+  subTitle: "Passionate Frontend Developer Exploring Every Tech Stack",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Develop highly interactive front-end user interfaces for web and mobile applications."
     ),
-    emoji("⚡ Created business related articles/pages using CMS/ECM as per client requirements")
+    emoji("⚡ Create business-related articles and pages using CMS/ECM as per client requirements.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -115,26 +115,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Senior Anaylst",
+      role: "Senior Analyst",
       company: "eClerx",
       companylogo: require("./assets/images/eClerxLogo.jpeg"),
       date: "Nov 2022 – Present",
       descBullets: [
-        "Optimized HTML, CSS, and React components to increase web page by 100%, resulting in improved user experience and boosted website traffic.",
-        "Experience in analysis and transformation of business requirements into functional and non-functional flows.",
-        "Maintaining process in Kanban and carryout quality assurance tests pages, layouts of the site."
+        "Optimized HTML, CSS, and React components to increase web page performance by 100%, resulting in improved user experience and increased website traffic.",
+        "Experienced in analyzing and transforming business requirements into functional and non-functional flows.",
+        "Maintained processes in Kanban and carried out quality assurance tests for pages and layouts."
       ]
     },
     {
-      role: "Senior Software Enginner",
+      role: "Senior Software Engineer",
       company: "Adapty Solutions Pvt. Ltd.",
       companylogo: require("./assets/images/adaptyLogo.jpeg"),
       date: "Jan 2020 – Nov 2022",
       descBullets: [
-        "Developed the Front-End and User Interface and responsible for designing page layout.",
+        "Developed the front-end and user interface and was responsible for designing page layouts.",
         "Created reusable React components and managed application state with Redux.",
-        "Created business related pages using CMS for complex design projects for corporate clients.",
-        "Maintaining process in JIRA and carryout quality assurance tests pages, layouts of the site."
+        "Created business-related pages using CMS for complex design projects for corporate clients.",
+        "Maintained processes in JIRA and carried out quality assurance tests for pages and layouts."
       ]
     }
   ]
@@ -152,15 +152,13 @@ const openSource = {
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
   display: true // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
+    "Want to discuss a project or just say hi? My inbox is open to all.",
   number: "+92-8652550796",
   email_address: "divyavispute86@gmail.com"
 };
