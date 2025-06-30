@@ -21,7 +21,11 @@ export default function Greeting() {
           <div className="greeting-text-div">
             <div>
               <h1
-                className={isDark ? "dark-mode section-title greeting-text" : "section-title greeting-text"}
+                className={
+                  isDark
+                    ? "dark-mode section-title greeting-text"
+                    : "section-title greeting-text"
+                }
               >
                 {" "}
                 {greeting.title}{" "}

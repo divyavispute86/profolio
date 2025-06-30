@@ -48,7 +48,9 @@ const skillsSection = {
     emoji(
       "⚡ Develop highly interactive front-end user interfaces for web and mobile applications."
     ),
-    emoji("⚡ Create business-related articles and pages using CMS/ECM as per client requirements.")
+    emoji(
+      "⚡ Create business-related articles and pages using CMS/ECM as per client requirements."
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -90,7 +92,6 @@ https://fontawesome.com/icons?d=gallery */
   ],
   display: true // Set false to hide this section, defaults to true
 };
-
 
 // Your top 3 proficient stacks/tech experience
 
@@ -162,7 +163,6 @@ const contactInfo = {
   number: "+92-8652550796",
   email_address: "divyavispute86@gmail.com"
 };
- 
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 

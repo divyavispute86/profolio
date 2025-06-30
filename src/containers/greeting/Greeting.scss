@@ -1,4 +1,4 @@
-@use '../../_globalColor' as *;
+@use "../../_globalColor" as *;
 
 .main {
   width: 85%;
@@ -103,7 +103,6 @@
   .button-greeting-div {
     display: block;
     text-align: center;
-
   }
   .button-greeting-div > * {
     display: inline-block;
