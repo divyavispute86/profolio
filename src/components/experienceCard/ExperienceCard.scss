@@ -6,6 +6,9 @@
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
+  width: calc(50% - 2rem); // two cards per row, considering gap
+  max-width: 500px; // optional, restricts max card width
+  min-width: 300px;
 }
 
 .experience-card-dark {
@@ -14,6 +17,9 @@
   box-shadow: $lightBoxShadowDark 0px 10px 30px -15px;
   border-radius: 10px;
   border: 1px solid $lightBorder1;
+  width: calc(50% - 2rem); // two cards per row, considering gap
+  max-width: 500px; // optional, restricts max card width
+  min-width: 300px;
 }
 
 .experience-card:hover {

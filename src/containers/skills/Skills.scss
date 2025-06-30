@@ -28,6 +28,26 @@
   color: $subTitle;
 }
 
+.devicon-nextjs-original {
+  background-color: white;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.devicon-nextjs-original {
+  filter: brightness(0) invert(1);
+  font-size: 2rem; // Optional size
+}
+
+
+// .devicon-nextjs-original {
+//   filter: invert(1);
+// }
+
+// .devicon-nextjs-original {
+//   filter: invert(1) grayscale(1) contrast(150%);
+// }
+
 /* Media Query */
 @media (max-width: 1380px) {
   .skills-heading {

@@ -88,7 +88,17 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "bootstrap",
       fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "Next.js",
+      fontAwesomeClassname: "devicon-nextjs-original colored"
+    },
+    {
+      skillName: "Tailwind CSS",
+      fontAwesomeClassname: "devicon-tailwindcss-plain"
     }
+
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -115,6 +125,16 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
+    {
+      role: "Custom Software Development Senior Analyst",
+      company: "Accenture",
+      companylogo: require("./assets/images/accentureLogo.jpeg"),
+      date: "Nov 2022 - present",
+      descBullets: [
+        "Developed dynamic and responsive user interfaces using React and Tailwind CSS, ensuring pixel-perfect design implementation and cross-browser compatibility.",
+        "Streamlined front-end architecture by modularizing components and leveraging Tailwind utility classes, leading to faster development cycles and improved code maintainability."
+      ]
+    },
     {
       role: "Senior Analyst",
       company: "eClerx",
